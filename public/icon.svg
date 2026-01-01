@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle with Gradient -->
+  <circle cx="256" cy="256" r="256" fill="url(#gradient)"/>
+  
+  <!-- Heart Shape (representing HEAL) -->
+  <path d="M256 416C256 416 96 320 96 208C96 160 132 128 176 128C208 128 236 144 256 168C276 144 304 128 336 128C380 128 416 160 416 208C416 320 256 416 256 416Z" fill="white" opacity="0.95"/>
+  
+  <!-- Plus/Cross Symbol (representing health/medical) -->
+  <rect x="236" y="196" width="40" height="120" rx="8" fill="url(#gradient2)"/>
+  <rect x="196" y="236" width="120" height="40" rx="8" fill="url(#gradient2)"/>
+  
+  <!-- Sparkle Elements -->
+  <circle cx="160" cy="180" r="8" fill="white" opacity="0.8"/>
+  <circle cx="352" cy="180" r="8" fill="white" opacity="0.8"/>
+  <circle cx="200" cy="360" r="6" fill="white" opacity="0.6"/>
+  <circle cx="312" cy="360" r="6" fill="white" opacity="0.6"/>
+  
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="196" y1="196" x2="316" y2="316" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+</svg>
